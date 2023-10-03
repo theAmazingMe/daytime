@@ -1,3 +1,5 @@
+import { Template } from "./template";
+
 export const Home = () => {
-    return <div> Home page</div>
-}
+	return <Template />;
+};

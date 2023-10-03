@@ -1,7 +1,11 @@
 .App {
 	text-align: center;
+	min-height: 100vh;
 }
 
+html{
+	background-color: #212529;
+}
 .page-dark {
 	background-color: #212529;
 	color: lightgray;
@@ -40,4 +44,64 @@
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.page-primary {
+	background-color: white;
+}
+
+.card {
+	background-color: transparent;
+	border: 0.8px solid inherit;
+}
+
+[class*="feat-"] * {
+	animation: fadein 0.5s;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+		scale: 0.8;
+	}
+	to {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+[class*="feat-dark"]{
+	li.page-item a {
+		background: transparent;
+	}
+	.card {
+		//background: #494358;
+		background-color: transparent;
+		border: 0.8px solid #434358;
+		color: #978cb3;
+	
+		button.btn-primary {
+			background-color: #998db6;
+			border-color: transparent;
+			&:active {
+				background-color: #998db6;
+				border-color: white;
+			}
+		}
+	}
+}
+
+
+[class*="feat"],
+[class*="bg-feat"] {
+	* {
+		transition: background-color cubic-bezier(0.9, -0.03, 0.18, 0.56) 0.5s;
+	}
+}
+
+[class*="page-feat"] {
+	transition: background-color cubic-bezier(0.9, -0.03, 0.18, 0.56) 0.5s;
+}
+
+.card{
+	margin: 1em auto;
 }

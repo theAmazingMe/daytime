@@ -10,7 +10,7 @@ export const Template = ({ prefix }: any) => {
 
 	return (
 		<div className={pre(`feat feat-${themes.theme}`)}>
-			<h1>Your "Login" Component is ready !</h1>
+			<h1>Your "Greetings" Component is ready !</h1>
 		</div>
 	);
 };

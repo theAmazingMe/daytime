@@ -1,8 +1,8 @@
 import "./style.scss";
 import { useClassPrefix } from "mazeof-react/dist/hooks";
-import { AppContextType } from "../../resources/types";
 import { useContext } from "react";
-import { AppContext } from "../../App";
+import { AppContext } from "../../../App";
+import { AppContextType } from "../../../resources/types";
 
 export const Template = ({ prefix }: any) => {
     const { themes } = useContext(AppContext) as AppContextType;
@@ -10,7 +10,7 @@ export const Template = ({ prefix }: any) => {
 
 	return (
 		<div className={pre(`feat feat-${themes.theme}`)}>
-			<h1>Your "Login" Component is ready !</h1>
+			<h1>Your "RemoveNightShift" Component is ready !</h1>
 		</div>
 	);
 };

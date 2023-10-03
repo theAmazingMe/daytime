@@ -1,0 +1,23 @@
+$prefix : ns-c-;
+
+.#{$prefix} {
+	@at-root #{&}feat .card {
+        background-color: transparent;
+        border: 0.8px solid inherit;
+    }
+
+    @at-root #{&}[class*="feat-"] * {
+        animation: fadein 0.5s;
+    }
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+		scale: 0.8;
+	}
+	to {
+		opacity: 1;
+		scale: 1;
+	}
+}

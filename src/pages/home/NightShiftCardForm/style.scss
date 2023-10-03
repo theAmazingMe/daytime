@@ -1,0 +1,30 @@
+$prefix : ns-c-form-;
+
+.#{$prefix} {
+    @at-root #{&} {
+        &feat {
+            &-dark {
+                .country-picker {
+                    border-color: var(--bs-card-color);
+                    background-color: #413648;
+                }
+            }
+            .country-picker {
+                border: 1px solid var(--bs-border-color-translucent);
+                margin: 5px 0;
+                width: 100%;
+                color: inherit;
+
+                img {
+                    float: left;
+                    margin-left: 5px;
+                }
+            }
+
+            .countries-list {
+                max-height: 75vh;
+                overflow: auto;
+            }
+        }
+    }
+}

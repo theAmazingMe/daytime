@@ -4,10 +4,10 @@ import { AppContext } from "../../App";
 import { AppContextType } from "../../resources/types";
 
 export const Template = (props: any) => {
-	const { theme } = useContext(AppContext) as AppContextType;
+	const { themes } = (useContext(AppContext) as AppContextType);
 
 	return (
-		<div id="p404" className={`feat-${theme}`}>
+		<div id="p404" className={`feat feat-${themes.theme}`}>
 			<h3>Page Not Found</h3>
 		</div>
 	);

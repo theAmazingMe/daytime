@@ -1,0 +1,58 @@
+$prefix : alpha-;
+
+.#{$prefix} {
+    @at-root #{&}feat {
+        &-dark {
+            li.page-item {
+                a {
+                    background-color: transparent;
+                    border: 0.8px solid #434358;
+                    color: #978cb3;
+                }
+            }
+            
+        }
+        li.page-item {
+            a {
+                padding-left: unset;
+                padding-right: unset;
+                width: 100%;
+            }
+        }
+
+        // the letters occupy the with less 10% : (100-20)/26 =  3.461...
+        li.page-item.all {
+            min-width:10%;
+            
+            ~ li.page-item {
+                min-width: 3.46%;
+            }
+        }
+
+        // the letters occupy the width less 20% : (100-20)/13 = 6.153...
+        li.page-item.all-half {
+            min-width:20%;
+            
+            ~ li.page-item {
+                min-width: 6.15%; 
+            }
+        }
+
+        // the letter occupies all the width : 100/13 = 7.692...
+        li.page-item {
+            border-color: var(--bs-border-color-translucent);
+            min-width: 7.69%;
+            a {
+                border: 0.8px solid var(--bs-border-color-translucent);
+            }
+        }
+
+        li.page-item.active {
+
+            .page-link {
+                background-color: #978cb3;
+                border-color: #434358
+            }
+        }
+    }
+}
