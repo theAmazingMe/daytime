@@ -1,1 +1,10 @@
+$prefix : err-404-;
 
+.#{$prefix} {
+	@at-root #{&}feat {
+        /*
+            setup your style here for 
+			err-404-feat class elements and children!
+        */
+	}
+}

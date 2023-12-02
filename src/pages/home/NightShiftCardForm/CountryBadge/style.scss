@@ -1,0 +1,17 @@
+$prefix : ctry-badge-;
+
+$button-size:30px;
+
+.#{$prefix} {
+	@at-root #{&}feat {
+            float:right;
+            &.btn-circle{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                border-radius:50px;
+                width:#{$button-size};
+                height:#{$button-size};
+            }
+	}
+}

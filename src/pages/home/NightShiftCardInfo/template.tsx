@@ -7,14 +7,14 @@ import { COOKIES_KEY } from "../../../resources/constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { useClassPrefix } from "mazeof-react/dist/hooks";
+import { hasSunCookies } from "../../../resources/utils";
 
 export const Template = ({ prefix , remove}: any) => {
     const { themes } = useContext(AppContext) as AppContextType;
 	const pre = useClassPrefix(prefix);
 	const { cookiesPref } = (useContext(AppContext) as AppContextType);
 
-	const cookies = cookiesPref.cookies;
-	const { sun } = !!cookies ? cookies[COOKIES_KEY] : { sun: null };
+	const { sun } = hasSunCookies(cookiesPref.cookies,COOKIES_KEY);
 
 	const binIcon = icon({name : "trash", style:"solid"});
 

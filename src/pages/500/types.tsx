@@ -1,0 +1,1 @@
+export type ServerCrashPropsTypes = { prefix: string }

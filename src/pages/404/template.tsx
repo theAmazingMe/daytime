@@ -1,14 +1,16 @@
-import { useContext } from "react";
 import "./style.scss";
-import { AppContext } from "../../App";
+import { useClassPrefix } from "mazeof-react/dist/hooks";
 import { AppContextType } from "../../resources/types";
+import { useContext } from "react";
+import { AppContext } from "../../App";
 
-export const Template = (props: any) => {
-	const { themes } = (useContext(AppContext) as AppContextType);
+export const Template = ({ prefix }: any) => {
+    const { themes } = useContext(AppContext) as AppContextType;
+	const pre = useClassPrefix(prefix);
 
 	return (
-		<div id="p404" className={`feat feat-${themes.theme}`}>
-			<h3>Page Not Found</h3>
+		<div className={pre(`feat feat-${themes.theme}`)}>
+			<h1>Your "NotFound" Component is ready !</h1>
 		</div>
 	);
 };

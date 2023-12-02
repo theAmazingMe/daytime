@@ -1,5 +1,5 @@
 import { Template } from "./template";
 
 export const NotFound = () => {
-    return <Template />
-}
+	return <Template prefix="err-404" />;
+};

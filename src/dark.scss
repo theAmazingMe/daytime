@@ -1,0 +1,93 @@
+$primary : #998db6;
+$backPage : #212529;
+$backPageLighter : #2c2f33;
+$purplish: #978cb3;
+$color: $purplish; // #d3d3d3;
+
+.navbar.bg-primary {
+    background-color: #998db6 !important;
+}
+
+.page-dark {
+    background-color: $backPage;
+    color: $color;
+}
+
+[class*="feat-dark"] {
+    li.page-item {
+        a {
+            background-color: transparent;
+            border: 0.8px solid #434358;
+            color: $color;
+        }
+    }
+
+    li.page-item.active {
+        .page-link {
+            background-color: #978cb3;
+            border-color: #434358
+        }
+    }
+
+    .modal-content {
+        background-color: #494358;
+        border: 0.8px solid #434358;
+        color: $color;
+    }
+
+    .modal-footer {
+        border-top: var(--bs-modal-footer-border-width) solid #333;
+    }
+
+    .modal-header {
+        border-bottom: var(--bs-modal-footer-border-width) solid #333;
+    }
+
+    .card {
+        background-color: transparent;
+        border: 0.8px solid #434358;
+        color: $color;
+    }
+
+    .card-footer {
+        border-top: 0.8px solid #434358;
+        background-color: #2c2f33;
+    }
+
+    .list-group-item {
+        border: var(--bs-modal-footer-border-width) solid #575760;
+        color: $color;
+    }
+
+    * {
+
+        button{
+        
+        &.btn-primary,
+        &.list-group-item.list-group-item-btn {
+            background-color: $primary;
+            color: white;
+            border-color: transparent !important;
+
+            &:active {
+                background-color: $primary;
+                border-color: white;
+            }
+        }
+
+        &.btn-secondary {
+            background: #333;
+            border: black;
+        }
+
+        &.btn-dark {
+            border: var(--bs-modal-footer-border-width) solid #575760;
+        }}
+    }
+
+    .alert-info {
+        background-color: #7272ac;
+        border: var(--bs-border-width) solid #8787b0;
+        color: lightblue;
+    }
+}

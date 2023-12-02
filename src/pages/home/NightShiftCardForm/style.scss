@@ -7,8 +7,14 @@ $prefix : ns-c-form-;
                 .country-picker {
                     border-color: var(--bs-card-color);
                     background-color: #413648;
+
+                    &:hover {
+                        background-color: #7a6d9b;
+                        color: white;
+                    }
                 }
             }
+
             .country-picker {
                 border: 1px solid var(--bs-border-color-translucent);
                 margin: 5px 0;

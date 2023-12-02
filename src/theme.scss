@@ -1,0 +1,13 @@
+.page-item.active.primary .page-link,
+.badge.bg-primary {
+    background-color: #978cb3 !important;
+    border-color: #434358;
+}
+
+.page-item.primary .page-link{
+    a {
+		background-color: transparent;
+		color: #978cb3;
+		border: 0.8px solid var(--bs-border-color-translucent);
+	}
+}

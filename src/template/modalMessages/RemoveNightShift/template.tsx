@@ -5,12 +5,16 @@ import { AppContext } from "../../../App";
 import { AppContextType } from "../../../resources/types";
 
 export const Template = ({ prefix }: any) => {
-    const { themes } = useContext(AppContext) as AppContextType;
+	const { themes } = useContext(AppContext) as AppContextType;
 	const pre = useClassPrefix(prefix);
 
 	return (
 		<div className={pre(`feat feat-${themes.theme}`)}>
-			<h1>Your "RemoveNightShift" Component is ready !</h1>
+			<p>
+				Do you really want to unlink this country to the dailight configuration ?
+			</p>
+			<hr/>
+			<p>You may want to set something later ...</p>
 		</div>
 	);
 };

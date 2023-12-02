@@ -22,13 +22,13 @@ export const Template = ({ prefix, pickPage,pickRelativePage, pageCount }: any) 
 	return (
 		<div className={pre(`feat feat-${themes.theme}`)}>
 			{pageCount > 1 ? (<Pagination>
-				<Pagination.Prev onClick={() => pickRelativePage(+-1)}/>
+				<Pagination.Prev className={`${themes.theme}`} onClick={() => pickRelativePage(+-1)}/>
 				{page - spread > 1 ? <><Pagination.Item onClick={() => pickPage(1)}>1</Pagination.Item><Pagination.Ellipsis /></> : ""}
-				{[...range(1, pageCount)].filter(r => isAroundOf(r, page)).map(r => {
-					return <Pagination.Item active={page===r} onClick={() => pickPage(r)}>{r}</Pagination.Item>
+				{[...range(1, pageCount)].filter(r => isAroundOf(r, page)).map((r,i) => {
+					return <Pagination.Item key={i} className={`${themes.theme}`} active={page===r} onClick={() => pickPage(r)}>{r}</Pagination.Item>
 				})}
 				{page + spread < pageCount ? <><Pagination.Ellipsis /><Pagination.Item onClick={() => pickPage(pageCount)}>{pageCount}</Pagination.Item></> : ""}
-				<Pagination.Next onClick={() => pickRelativePage(+1)}/>
+				<Pagination.Next className={`${themes.theme}`} onClick={() => pickRelativePage(+1)}/>
 			</Pagination>) : ""}
 		</div>
 	);

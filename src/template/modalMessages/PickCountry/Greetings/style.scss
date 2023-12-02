@@ -1,0 +1,58 @@
+$prefix : greetings-;
+
+.#{$prefix} {
+	@at-root #{&}feat {
+        .all-greetings {
+            
+            ol {
+                .list-group-item {
+                    background: transparent;
+                    border-top: none;
+                    border-radius: 0;
+                }
+
+                &:nth-child(even)>.list-group-item {
+                    background: transparent
+                }
+
+                &:nth-child(odd)>.list-group-item {
+                    background: rgba(233, 233, 233, 0.04);
+                }
+
+                &:first-child {
+                    .list-group-item {
+                        border-top: var(--bs-list-group-border-width) solid;
+                        border-radius: 5px;
+                        border-bottom-left-radius: 0;
+                        border-bottom-right-radius: 0;
+                    }
+                }
+
+                &:last-child {
+
+                    .list-group-item {
+                        border-radius: 5px;
+                        border-top-left-radius: 0;
+                        border-top-right-radius: 0;
+                    }
+                }
+            }
+
+            .language {
+
+                &.list-group-item {
+                    .list-group-item {
+                        border: none;
+                    }
+                }
+
+                .greetings .list-group-item-btn {
+                    margin: 5px;
+                    display: inline-block;
+                    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+                    border-radius: 5px;
+                }
+            }
+        }
+	}
+}

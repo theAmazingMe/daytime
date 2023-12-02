@@ -1,0 +1,10 @@
+$prefix : err500-;
+
+.#{$prefix} {
+	@at-root #{&}feat {
+        /*
+            setup your style here for 
+			err500-feat class elements and children!
+        */
+	}
+}

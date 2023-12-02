@@ -1,0 +1,1231 @@
+{
+  "South Africa": {
+    "flag": "🇿🇦",
+    "Afrikaans": [
+      "Hallo (hal-low)"
+    ],
+    "Northern Sotho": [
+      "Dumela (doo-MAY-lah)",
+      "Khotso (coat-so)"
+    ],
+    "Sesotho": [
+      "Dumela (doo-meh-lah)"
+    ],
+    "Swati": [
+      "Sawubona (sah-woo-boh-nah)"
+    ],
+    "Tsonga": [
+      "Minjhani"
+    ],
+    "Tswana": [
+      "Dumela (doo-meh-lah)"
+    ],
+    "Xhosa": [
+      "Molo"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Namibia": {
+    "flag": "🇳🇦",
+    "Afrikaans": [
+      "Hallo (hal-low)"
+    ],
+    "Tswana": [
+      "Dumela (doo-meh-lah)"
+    ]
+  },
+  "Albania": {
+    "flag": "🇦🇱",
+    "Albanian": [
+      "Përshëndetje (Per-shen-DEAT-ye)",
+      "Tungjatjeta (toon-jah-TYEH-tah)",
+      "Tjeta (TYEH-tah)"
+    ]
+  },
+  "Kosovo": {
+    "flag": "🇽🇰",
+    "Albanian": [
+      "Përshëndetje (Per-shen-DEAT-ye)",
+      "Tungjatjeta (toon-jah-TYEH-tah)",
+      "Tjeta (TYEH-tah)"
+    ]
+  },
+  "Ethiopia": {
+    "flag": "🇪🇹",
+    "Amharic": [
+      "Teanastëllën (teen-as-tell-an)",
+      "Tadiyas",
+      "Sälam"
+    ],
+    "Oromo": [
+      "Akkam"
+    ]
+  },
+  "Saudi Arabia": {
+    "flag": "🇸🇦",
+    "Arabic": [
+      "As-salām ‘alaykum (ahs-sahlahm ‘ah-leh-loom)",
+      "Marhaba (mahr-hah-bah)",
+      "hlan (ah-lahn)"
+    ]
+  },
+  "Armenia": {
+    "flag": "🇦🇲",
+    "Armenian": [
+      "Barev dzez (bah-REV DZEZ)",
+      "Barev (bah-REV)"
+    ]
+  },
+  "Azerbaijan": {
+    "flag": "🇦🇿",
+    "Azerbaijani": [
+      "Cалам (sa-laam)",
+      "Salam əleyküm (sa-laam-mu-alaikum)"
+    ]
+  },
+  "Germany": {
+    "flag": "🇩🇪",
+    "Bavarian": [
+      "Servus (SER-VOOS)",
+      "Seavus (SE-ah-VOOS)",
+      "Grüß Gott (gruess got)"
+    ],
+    "Frisian": [
+      "Goeie (GOO-ee)"
+    ],
+    "German": [
+      "Hallo",
+      "Tag (tahg)",
+      "Guten tag"
+    ],
+    "Swabian German": [
+      "Grüss gott"
+    ]
+  },
+  "Austria": {
+    "flag": "🇦🇹",
+    "Bavarian": [
+      "Servus (SER-VOOS)",
+      "Seavus (SE-ah-VOOS)",
+      "Grüß Gott (gruess got)"
+    ],
+    "German": [
+      "Hallo",
+      "Tag (tahg)",
+      "Guten tag"
+    ]
+  },
+  "Belarus": {
+    "flag": "🇧🇾",
+    "Belarusian": [
+      "Biтаю (vee-tie-you)"
+    ],
+    "Russian": [
+      "Zdravstvuyte (ZDRA-stvooy-tyeh)",
+      "Zdorovo (zduh-ROH-vuh)",
+      "привет privet (pree-VYEHT)"
+    ]
+  },
+  "Bangladesh": {
+    "flag": "🇧🇩",
+    "Bengali": [
+      "Nomoshkaar",
+      "Namaskāra"
+    ]
+  },
+  "India": {
+    "flag": "🇮🇳",
+    "Bengali": [
+      "Nomoshkaar",
+      "Namaskāra"
+    ],
+    "Bodo": [
+      "Wai",
+      "Oi",
+      "Oye"
+    ],
+    "Gujarati": [
+      "Namaskaar",
+      "Namaste (nah-mah-steh)",
+      "Kem cho (kem-choh)"
+    ],
+    "Hindi": [
+      "Namaste (Nah-mas-teh)"
+    ],
+    "Kannada": [
+      "Namaskār"
+    ],
+    "Malayalam": [
+      "Halēā",
+      "Namaskkaram (nah-mah-skahr-ahm)"
+    ],
+    "Marathi": [
+      "Namaskār"
+    ],
+    "Odia": [
+      "Namaskār"
+    ],
+    "Punjabi": [
+      "Sata sri akaal (saht sree ah-kahl)",
+      "As-alam-walaykum (ah-sah-lahm-wah-lay-koom)"
+    ],
+    "Tamil": [
+      "Vanakkam (Vaa–NaK–Kam)"
+    ],
+    "Telugu": [
+      "Namaskāram"
+    ]
+  },
+  "Nepal": {
+    "flag": "🇳🇵",
+    "Bodo": [
+      "Wai",
+      "Oi",
+      "Oye"
+    ],
+    "Nepali": [
+      "Namaste (nah-mahs-teh)"
+    ]
+  },
+  "Bosnia": {
+    "flag": "🇧🇦",
+    "Bosnian": [
+      "Dobar dan (DOH-bahr dahn)",
+      "Zdravo (ZDRAH-voh)",
+      "Merhaba (MEHR-hah bah)"
+    ]
+  },
+  "Croatia": {
+    "flag": "🇭🇷",
+    "Bosnian": [
+      "Dobar dan (DOH-bahr dahn)",
+      "Zdravo (ZDRAH-voh)",
+      "Merhaba (MEHR-hah bah)"
+    ],
+    "Croatian": [
+      "Bok (bohk)",
+      "Dobar dan"
+    ],
+    "Serbian": [
+      "Zdravo (ZDRAH-voh)",
+      "ćao (chow)"
+    ]
+  },
+  "Serbia": {
+    "flag": "🇷🇸",
+    "Bosnian": [
+      "Dobar dan (DOH-bahr dahn)",
+      "Zdravo (ZDRAH-voh)",
+      "Merhaba (MEHR-hah bah)"
+    ],
+    "Croatian": [
+      "Bok (bohk)",
+      "Dobar dan"
+    ],
+    "Serbian": [
+      "Zdravo (ZDRAH-voh)",
+      "ćao (chow)"
+    ]
+  },
+  "Brazil": {
+    "flag": "🇧🇷",
+    "Brazilian Portuguese": [
+      "Olá",
+      "Oi"
+    ],
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "France": {
+    "flag": "🇫🇷",
+    "Breton": [
+      "Demat (de-mat)"
+    ],
+    "French": [
+      "Bonjour",
+      "Bonsoir",
+      "Salut [saly]",
+      "Coucou [ku.ku] "
+    ]
+  },
+  "Bulgaria": {
+    "flag": "🇧🇬",
+    "Bulgarian": [
+      "Zdravei",
+      "Zdrasti"
+    ]
+  },
+  "Myanmar": {
+    "flag": "🇲🇲",
+    "Burmese": [
+      "Mingalarba (meen-gah LA-ba)"
+    ]
+  },
+  "Cambodia": {
+    "flag": "🇰🇭",
+    "Cambodian Khmer": [
+      "Chum reap suor (jum reap sour)",
+      "Sous-dey"
+    ]
+  },
+  "Spain": {
+    "flag": "🇪🇸",
+    "Catalan": [
+      "Hola (OH-lah)"
+    ],
+    "Spanish": [
+      "Hola (O-laa)"
+    ]
+  },
+  "Andorra": {
+    "flag": "🇦🇩",
+    "Catalan": [
+      "Hola (OH-lah)"
+    ]
+  },
+  "Malawi": {
+    "flag": "🇲🇼",
+    "Chichewa": [
+      "Moni moni onse (mooni-mooni-on-se)"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Zambia": {
+    "flag": "🇿🇲",
+    "Chichewa": [
+      "Moni moni onse (mooni-mooni-on-se)"
+    ]
+  },
+  "Mozambique": {
+    "flag": "🇲🇿",
+    "Chichewa": [
+      "Moni moni onse (mooni-mooni-on-se)"
+    ],
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ],
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ],
+    "Tsonga": [
+      "Minjhani"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Zimbabwe": {
+    "flag": "🇿🇼",
+    "Chichewa": [
+      "Moni moni onse (mooni-mooni-on-se)"
+    ],
+    "Sesotho": [
+      "Dumela (doo-meh-lah)"
+    ],
+    "Shona": [
+      "Mhoro"
+    ],
+    "Tswana": [
+      "Dumela (doo-meh-lah)"
+    ]
+  },
+  "China": {
+    "flag": "🇨🇳",
+    "Chinese Cantonese": [
+      "Néih hóu"
+    ],
+    "Chinese Mandarin": [
+      "Nǐ hǎo"
+    ],
+    "Hmong": [
+      "Nyob zoo"
+    ],
+    "Tibetan": [
+      "Tashi delek (tah-shee del-ek)"
+    ]
+  },
+  "Taiwan": {
+    "flag": "🇹🇼",
+    "Chinese Mandarin": [
+      "Nǐ hǎo"
+    ],
+    "Taiwanese Hokkien": [
+      "Lí-hó (lee-hoh)"
+    ]
+  },
+  "Singapore": {
+    "flag": "🇸🇬",
+    "Chinese Mandarin": [
+      "Nǐ hǎo"
+    ]
+  },
+  "Bosnia and Herzegovina": {
+    "flag": "🇧🇦",
+    "Croatian": [
+      "Bok (bohk)",
+      "Dobar dan"
+    ],
+    "Serbian": [
+      "Zdravo (ZDRAH-voh)",
+      "ćao (chow)"
+    ]
+  },
+  "Czech Republic": {
+    "flag": "🇨🇿",
+    "Czech": [
+      "Ahoj (ahoy)",
+      "Dobrý den (DOH-bree dehn)"
+    ]
+  },
+  "Denmark": {
+    "flag": "🇩🇰",
+    "Danish": [
+      "Hej (Hai)",
+      "Hallo (ha-loh)"
+    ]
+  },
+  "Netherlands": {
+    "flag": "🇳🇱",
+    "Dutch": [
+      "Hallo (HAAL–oo)",
+      "Goedendag",
+      "Hoi"
+    ],
+    "Frisian": [
+      "Goeie (GOO-ee)"
+    ],
+    "Limburgish": [
+      "hallau",
+      "hoi",
+      "daag"
+    ]
+  },
+  "Belgium": {
+    "flag": "🇧🇪",
+    "Dutch": [
+      "Hallo (HAAL–oo)",
+      "Goedendag",
+      "Hoi"
+    ],
+    "French": [
+      "Bonjour",
+      "Bonsoir",
+      "Salut [saly]",
+      "Coucou [ku.ku] "
+    ],
+    "Limburgish": [
+      "hallau",
+      "hoi",
+      "daag"
+    ]
+  },
+  "Bhutan": {
+    "flag": "🇧🇹",
+    "Dzongkha": [
+      "Kuzu-zangpo la (koo-zoo-zang-poh-la)"
+    ]
+  },
+  "England": {
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "English": [
+      "hello"
+    ]
+  },
+  "United States of America": {
+    "flag": "🇺🇸",
+    "English": [
+      "hello"
+    ],
+    "Hawaiian": [
+      "Aloha"
+    ],
+    "Hopi": [
+      "Ha’u (hah-uh)",
+      "Waynuma"
+    ],
+    "Tsalagi Cherokee": [
+      "Osiyo"
+    ]
+  },
+  "Australia": {
+    "flag": "🇦🇺",
+    "English": [
+      "hello"
+    ],
+    "Woiworung": [
+      "Womenjeka (woh-men-je-kah)"
+    ]
+  },
+  "New Zealand": {
+    "flag": "🇳🇿",
+    "English": [
+      "hello"
+    ],
+    "Maori": [
+      "Kia ora",
+      "Tēnā koe (teh-nah koy)"
+    ]
+  },
+  "Ireland": {
+    "flag": "🇮🇪",
+    "English": [
+      "hello"
+    ]
+  },
+  "Estonia": {
+    "flag": "🇪🇪",
+    "Estonian": [
+      "Tere (TEHR-reh)"
+    ]
+  },
+  "Iran": {
+    "flag": "🇮🇷",
+    "Persian": [
+      "Salām",
+      "Dorood bar to",
+      "Dorood bar shoma"
+    ],
+    "Kurdish": [
+      "Silav (slaw)",
+      "As-salaamu’ alaykum"
+    ],
+    "Pashto": [
+      "Salam",
+      "Khe chare (KHEH chah-reh)"
+    ]
+  },
+  "Afghanistan": {
+    "flag": "🇦🇫",
+    "Persian": [
+      "Salām",
+      "Dorood bar to",
+      "Dorood bar shoma"
+    ],
+    "Kyrgyz": [
+      "Salamatsyzby (sah-lam-aht-seez-bee)",
+      "Salam (sah-lam)"
+    ],
+    "Pashto": [
+      "Salam",
+      "Khe chare (KHEH chah-reh)"
+    ]
+  },
+  "Tajikistan": {
+    "flag": "🇹🇯",
+    "Persian": [
+      "Salām",
+      "Dorood bar to",
+      "Dorood bar shoma"
+    ],
+    "Kyrgyz": [
+      "Salamatsyzby (sah-lam-aht-seez-bee)",
+      "Salam (sah-lam)"
+    ],
+    "Tajik": [
+      "cалом (sah-lohm)",
+      "ассалом (a-sah-lohm)",
+      "ассалому алейкум (asah-lomu ah-lay-koom)"
+    ]
+  },
+  "Fiji": {
+    "flag": "🇫🇯",
+    "Fijian": [
+      "Bula (mbula)"
+    ]
+  },
+  "Finland": {
+    "flag": "🇫🇮",
+    "Finnish": [
+      "Hyvää päivää (HUU-vaa PAI-vaah)",
+      "Hei (hay)",
+      "Terve (TEHR-ve)",
+      "Moi (Moy)"
+    ]
+  },
+  "Senegal": {
+    "flag": "🇸🇳",
+    "French (Typic)": [
+      "Bonjour",
+      "Bonsoir"
+    ]
+  },
+  "Georgia": {
+    "flag": "🇬🇪",
+    "Georgian": [
+      "Miesalmebi",
+      "Gah-mahr-joh-bah"
+    ]
+  },
+  "Switzerland": {
+    "flag": "🇨🇭",
+    "German": [
+      "Hallo",
+      "Tag (tahg)",
+      "Guten tag"
+    ],
+    "Swiss German": [
+      "Hoi",
+      "Grüezi"
+    ]
+  },
+  "Greece": {
+    "flag": "🇬🇷",
+    "Greek": [
+      "Xαίρε (chai-ray)",
+      "Yassas (YAH sahss)",
+      "Yassou (YAH soo)"
+    ]
+  },
+  "Cyprus": {
+    "flag": "🇨🇾",
+    "Greek": [
+      "Xαίρε (chai-ray)",
+      "Yassas (YAH sahss)",
+      "Yassou (YAH soo)"
+    ],
+    "Turkish": [
+      "Merhaba (mehr hah bah)",
+      "Selam (sell um)"
+    ]
+  },
+  "Haiti": {
+    "flag": "🇭🇹",
+    "Haitian Creole": [
+      "Alo",
+      "Bonjou (BOH-joo)",
+      "Sak pase (sak-pase)"
+    ]
+  },
+  "Nigeria": {
+    "flag": "🇳🇬",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ],
+    "Yoruba": [
+      "Bawo ni"
+    ]
+  },
+  "Niger": {
+    "flag": "🇳🇪",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Benin": {
+    "flag": "🇧🇯",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ],
+    "Yoruba": [
+      "Bawo ni"
+    ]
+  },
+  "Burkina Faso": {
+    "flag": "🇧🇫",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Cameroon": {
+    "flag": "🇨🇲",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Central African Republic": {
+    "flag": "🇨🇫",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Chad": {
+    "flag": "🇹🇩",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Eritrea": {
+    "flag": "🇪🇷",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Ghana": {
+    "flag": "🇬🇭",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Sudan": {
+    "flag": "🇸🇩",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Togo": {
+    "flag": "🇹🇬",
+    "Hausa": [
+      "Sannu (san-NU)"
+    ]
+  },
+  "Israel": {
+    "flag": "🇮🇱",
+    "Hebrew": [
+      "Shalom (shah-LOHM)",
+      "Ma korae"
+    ]
+  },
+  "Vietnam": {
+    "flag": "🇻🇳",
+    "Hmong": [
+      "Nyob zoo"
+    ],
+    "Vietnamese": [
+      "Xin chào (sin CHOW)",
+      "Chào bạn"
+    ]
+  },
+  "Laos": {
+    "flag": "🇱🇦",
+    "Hmong": [
+      "Nyob zoo"
+    ],
+    "Lao": [
+      "ສະບາຍດີ (sa-baai-di)"
+    ]
+  },
+  "Thailand": {
+    "flag": "🇹🇭",
+    "Hmong": [
+      "Nyob zoo"
+    ],
+    "Thai": [
+      "Sawasdee krap (sa-wat-dii-krap)",
+      "Sawasdee ka (sa-wat-dii-kha)"
+    ]
+  },
+  "French Guiana": {
+    "flag": "🇬🇫",
+    "Hmong": [
+      "Nyob zoo"
+    ]
+  },
+  "Hungary": {
+    "flag": "🇭🇺",
+    "Hungarian": [
+      "Jó napot (yoe naupote)",
+      "Szervusz (SEHR-voos)",
+      "Szia (SEE-ah)"
+    ],
+    "Swabian German": [
+      "Grüss gott"
+    ]
+  },
+  "Iceland": {
+    "flag": "🇮🇸",
+    "Icelandic": [
+      "Halló (hal-law)",
+      "Góðan dag (gothan dahg)",
+      "Hæ (hai)"
+    ]
+  },
+  "Indonesia": {
+    "flag": "🇮🇩",
+    "Indonesian Bahasa": [
+      "Halo (HAH-loh)",
+      "Hai (high)"
+    ],
+    "Sundanese": [
+      "Halo",
+      "Sampurasun"
+    ]
+  },
+  "Italy": {
+    "flag": "🇮🇹",
+    "Italian": [
+      "Ciao (chow)",
+      "Buon giorno (bwohn JOHR-noh",
+      "Salve (SAHL-veh)",
+      "Pronto"
+    ]
+  },
+  "Japan": {
+    "flag": "🇯🇵",
+    "Japanese": [
+      "Kon’nichiwa (こんにちは: kohn-nee-chee-wah)"
+    ]
+  },
+  "Kazakhstan": {
+    "flag": "🇰🇿",
+    "Kazakh": [
+      "Sälem (sah-lem)",
+      "Sälemetsiz be (sah-lem-met-siz beh)",
+      "Assalamu aleikum (as-sa-laamu a-lay-kum)"
+    ],
+    "Russian": [
+      "Zdravstvuyte (ZDRA-stvooy-tyeh)",
+      "Zdorovo (zduh-ROH-vuh)",
+      "привет privet (pree-VYEHT)"
+    ]
+  },
+  "South Korea": {
+    "flag": "🇰🇷",
+    "Korean": [
+      "Anyeong haseyo (AHN-young-ha-say-yo)",
+      "Anyoung (AHN-young)"
+    ]
+  },
+  "North Korea": {
+    "flag": "🇰🇵",
+    "Korean": [
+      "Anyeong haseyo (AHN-young-ha-say-yo)",
+      "Anyoung (AHN-young)"
+    ]
+  },
+  "Iraq": {
+    "flag": "🇮🇶",
+    "Kurdish": [
+      "Silav (slaw)",
+      "As-salaamu’ alaykum"
+    ]
+  },
+  "Turkey": {
+    "flag": "🇹🇷",
+    "Kurdish": [
+      "Silav (slaw)",
+      "As-salaamu’ alaykum"
+    ],
+    "Kyrgyz": [
+      "Salamatsyzby (sah-lam-aht-seez-bee)",
+      "Salam (sah-lam)"
+    ],
+    "Turkish": [
+      "Merhaba (mehr hah bah)",
+      "Selam (sell um)"
+    ]
+  },
+  "Syria": {
+    "flag": "🇸🇾",
+    "Kurdish": [
+      "Silav (slaw)",
+      "As-salaamu’ alaykum"
+    ]
+  },
+  "Kyrgyzstan": {
+    "flag": "🇰🇬",
+    "Kyrgyz": [
+      "Salamatsyzby (sah-lam-aht-seez-bee)",
+      "Salam (sah-lam)"
+    ],
+    "Russian": [
+      "Zdravstvuyte (ZDRA-stvooy-tyeh)",
+      "Zdorovo (zduh-ROH-vuh)",
+      "привет privet (pree-VYEHT)"
+    ]
+  },
+  "Latvia": {
+    "flag": "🇱🇻",
+    "Latvian": [
+      "sveiki (SVYEH-kah)",
+      "sveiks (SVEH-eeks)"
+    ]
+  },
+  "Democratic Republic of the Congo": {
+    "flag": "🇨🇩",
+    "Lingala": [
+      "Mbote (mboh-teh)"
+    ],
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Republic of the Congo": {
+    "flag": "🇨🇬",
+    "Lingala": [
+      "Mbote (mboh-teh)"
+    ]
+  },
+  "Lithuania": {
+    "flag": "🇱🇹",
+    "Lithuanian": [
+      "Laba diena"
+    ]
+  },
+  "Luxembourg": {
+    "flag": "🇱🇺",
+    "Luxembourgish": [
+      "Moïen (MOY-en)"
+    ]
+  },
+  "Uganda": {
+    "flag": "🇺🇬",
+    "Luganda": [
+      "Ki kati (chi kati)"
+    ],
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Macedonia": {
+    "flag": "🇲🇰",
+    "Macedonian": [
+      "Здраво zdravo — hello"
+    ],
+    "Serbian": [
+      "Zdravo (ZDRAH-voh)",
+      "ćao (chow)"
+    ]
+  },
+  "Madagascar": {
+    "flag": "🇲🇬",
+    "Malagasy": [
+      "Salama (sah-lAHm-ah)"
+    ]
+  },
+  "Malaysia": {
+    "flag": "🇲🇾",
+    "Malay": [
+      "Hello (he-loh)",
+      "Hai (hai)",
+      "Selamat pagi (suh-lah-mat puh-guee)"
+    ]
+  },
+  "Brunei": {
+    "flag": "🇧🇳",
+    "Malay": [
+      "Hello (he-loh)",
+      "Hai (hai)",
+      "Selamat pagi (suh-lah-mat puh-guee)"
+    ]
+  },
+  "Malta": {
+    "flag": "🇲🇹",
+    "Maltese": [
+      "Bongu (Ħelow)"
+    ]
+  },
+  "Marshall Islands": {
+    "flag": "🇲🇭",
+    "Marshallese": [
+      "Yokwe (YAW-kweh)"
+    ]
+  },
+  "Mongolia": {
+    "flag": "🇲🇳",
+    "Mongolian": [
+      "Sain baina uu (sain bai-na-oo)",
+      "Sain uu (say-noo)"
+    ]
+  },
+  "Norway": {
+    "flag": "🇳🇴",
+    "Norwegian": [
+      "Hei",
+      "Hallo",
+      "halla"
+    ]
+  },
+  "Kenya": {
+    "flag": "🇰🇪",
+    "Oromo": [
+      "Akkam"
+    ],
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Somalia": {
+    "flag": "🇸🇴",
+    "Oromo": [
+      "Akkam"
+    ],
+    "Somali": [
+      "Salaam alaykum"
+    ]
+  },
+  "Egypt": {
+    "flag": "🇪🇬",
+    "Oromo": [
+      "Akkam"
+    ]
+  },
+  "Pakistan": {
+    "flag": "🇵🇰",
+    "Pashto": [
+      "Salam",
+      "Khe chare (KHEH chah-reh)"
+    ],
+    "Urdu": [
+      "Assalamu Alaikum"
+    ]
+  },
+  "Poland": {
+    "flag": "🇵🇱",
+    "Polish": [
+      "Cześć (cheshch)",
+      "Siema",
+      "Hej"
+    ]
+  },
+  "Portugal": {
+    "flag": "🇵🇹",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "Cape Verde ": {
+    "flag": "🇨🇻",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "Guinea-Bissau": {
+    "flag": "🇬🇼",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "Angola": {
+    "flag": "🇦🇴",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "East Timor": {
+    "flag": "🇹🇱",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "Macao": {
+    "flag": "🇲🇴",
+    "Portugese": [
+      "Olá (oh-LAH)",
+      "Oi",
+      "Bom dia"
+    ]
+  },
+  "Romania": {
+    "flag": "🇷🇴",
+    "Romanian": [
+      "Bună (BOO-nuh)",
+      "Salut (sah-LOOT)"
+    ],
+    "Swabian German": [
+      "Grüss gott"
+    ]
+  },
+  "Moldova": {
+    "flag": "🇲🇩",
+    "Romanian": [
+      "Bună (BOO-nuh)",
+      "Salut (sah-LOOT)"
+    ]
+  },
+  "Russia": {
+    "flag": "🇷🇺",
+    "Russian": [
+      "Zdravstvuyte (ZDRA-stvooy-tyeh)",
+      "Zdorovo (zduh-ROH-vuh)",
+      "привет privet (pree-VYEHT)"
+    ]
+  },
+  "Samoa": {
+    "flag": "🇼🇸",
+    "Samoan": [
+      "Talofa (tah-low-fah)"
+    ]
+  },
+  "American Samoa": {
+    "flag": "🇦🇸",
+    "Samoan": [
+      "Talofa (tah-low-fah)"
+    ]
+  },
+  "Scotland": {
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "Scottish Gaelic": [
+      "Haló (ha-LAW)"
+    ]
+  },
+  "Montenegro": {
+    "flag": "🇲🇪",
+    "Serbian": [
+      "Zdravo (ZDRAH-voh)",
+      "ćao (chow)"
+    ]
+  },
+  "Lesotho": {
+    "flag": "🇱🇸",
+    "Sesotho": [
+      "Dumela (doo-meh-lah)"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Sri Lanka": {
+    "flag": "🇱🇰",
+    "Sinhala": [
+      "āyubōvan (ah-yuh-boh-van)",
+      "Halō (ha-loh)"
+    ],
+    "Tamil": [
+      "Vanakkam (Vaa–NaK–Kam)"
+    ]
+  },
+  "Slovakia": {
+    "flag": "🇸🇰",
+    "Slovak": [
+      "Ahoj (AH-hoy)",
+      "Dobrý deň (dOH-bree deñ)"
+    ]
+  },
+  "Slovenia": {
+    "flag": "🇸🇮",
+    "Slovenian": [
+      "Zdravo (ZDRAH-voh)",
+      "živjo (ZHEE-vyoh)"
+    ]
+  },
+  "Mexico": {
+    "flag": "🇲🇽",
+    "Spanish": [
+      "Hola (O-laa)"
+    ]
+  },
+  "Tanzania": {
+    "flag": "🇹🇿",
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Rwanda": {
+    "flag": "🇷🇼",
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Burundi": {
+    "flag": "🇧🇮",
+    "Swahili": [
+      "Hujambo",
+      "Jambo"
+    ]
+  },
+  "Eswatini": {
+    "flag": "🇸🇿",
+    "Swati": [
+      "Sawubona (sah-woo-boh-nah)"
+    ],
+    "Tsonga": [
+      "Minjhani"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Sweden": {
+    "flag": "🇸🇪",
+    "Swedish": [
+      "Hej",
+      "Hallå"
+    ]
+  },
+  "Åland Islands": {
+    "flag": "🇦🇽",
+    "Swedish": [
+      "Hej",
+      "Hallå"
+    ]
+  },
+  "Liechtenstein": {
+    "flag": "🇱🇮",
+    "Swiss German": [
+      "Hoi",
+      "Grüezi"
+    ]
+  },
+  "Philippines": {
+    "flag": "🇵🇭",
+    "Tagalog Filipino": [
+      "Kumusta (koo-moos-tah)",
+      "Helów (hey-LOW)"
+    ]
+  },
+  "French Polynesia": {
+    "flag": "🇵🇫",
+    "Tahitian": [
+      "Ia ora na (ee-ah oh-rah-na)"
+    ]
+  },
+  "Botswana": {
+    "flag": "🇧🇼",
+    "Tswana": [
+      "Dumela (doo-meh-lah)"
+    ],
+    "Zulu": [
+      "Sawubona (sah-woo-boh-nah)"
+    ]
+  },
+  "Ukraine": {
+    "flag": "🇺🇦",
+    "Ukrainian": [
+      "Dobriy den (DOH-brihy dehn)",
+      "Vitayu (vee-TAH-yoo)",
+      "Pryvit (prih-VEET)"
+    ]
+  },
+  "Uzbekistan": {
+    "flag": "🇺🇿",
+    "Uzbek": [
+      "Assalomu alaykum",
+      "Salom"
+    ]
+  },
+  "Wales": {
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "Welsh": [
+      "Helo",
+      "Shwmae (shoe-my)",
+      "Sut mae (sit my)"
+    ]
+  },
+  "Sierra Leone": {
+    "flag": "🇸🇱",
+    "Yoruba": [
+      "Bawo ni"
+    ]
+  },
+  "Liberia": {
+    "flag": "🇱🇷",
+    "Yoruba": [
+      "Bawo ni"
+    ]
+  }
+}

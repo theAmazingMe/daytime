@@ -18,6 +18,12 @@ export const range = (start: number, end: number) => {
 	return (new Array(end - start + 1)).fill(undefined).map((_, i) => i + start);
 }
 
+export const hasSunCookies = (cookies: {
+	[x: string]: any;
+}, cookiesOf: string): { sun: any } => {
+	return !!cookies && Object.keys(cookies).length ? cookies[cookiesOf] : { sun: null };
+}
+
 /**
  * Make the spread grow the more we approach limits so the frame in 
  * the other way for displaying pagination in the other direction raises
@@ -27,13 +33,13 @@ export const range = (start: number, end: number) => {
  * @param pageCount the page count (divisions of the content by a certain cut)
  * @returns the spread raised to another value or the same as initialy if no limit reached
  */
-export const getRescaledSpread = (page : number,spread : number,pageCount : number) => {
+export const getRescaledSpread = (page: number, spread: number, pageCount: number) => {
 	let result = spread;
-	if(page-1 -spread < 0) {
-		result += (page - spread-1) * -1;
+	if (page - 1 - spread < 0) {
+		result += (page - spread - 1) * -1;
 	}
-	if(page +spread > pageCount) {
-		result += ((page+ spread) - pageCount);
+	if (page + spread > pageCount) {
+		result += ((page + spread) - pageCount);
 	}
 	return result;
 }

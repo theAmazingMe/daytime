@@ -2,25 +2,6 @@ $prefix : pagination;
 
 .#{$prefix} {
     @at-root #{&} {
-        &-feat {
-            &-dark {
-                li.page-item.active {
-
-                    .page-link {
-                        background-color: #978cb3;
-                        border-color: #434358
-                    }
-                }
-            }
-            li.page-item {
-                a {
-                    background-color: transparent;
-                    border: 0.8px solid #434358;
-                    color: #978cb3;
-                }
-            }
-
-            
-        }
+        
     }
 }

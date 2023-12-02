@@ -1,7 +1,6 @@
 import "./style.scss";
-import { Button, Card } from "react-bootstrap";
+import { Button, ButtonGroup, Card, InputGroup } from "react-bootstrap";
 import { AlphabetPickerContextType, AppContextType, PickedCountryType } from "../../../resources/types";
-import { FlagIcon, FlagIconCode } from "react-flag-kit";
 import { useClassPrefix } from "mazeof-react/dist/hooks";
 import { AlphabetPages } from "./AlphabetPages";
 import { useContext } from "react";
@@ -9,18 +8,12 @@ import { ResultPagination } from "./ResultPagination";
 import { AlphabetPickerContext } from ".";
 import { AppContext } from "../../../App";
 import ReactCountryFlag from "react-country-flag"
+import { CountryBadge } from "./CountryBadge";
 
-export interface DayTimeProps {
-	onSelect: (event: any) => void;
-	picked: any;
-	onClickFetchData: (pickedCountry: PickedCountryType) => void;
-}
 
 export const Template = ({
-	onSelect,
-	picked,
-	onClickFetchData,
-}: DayTimeProps) => {
+	onSelect, getGreetingCount
+}: any) => {
 
 	const { themes } = useContext(AppContext) as AppContextType;
 	const { filtered } = useContext(AlphabetPickerContext) as AlphabetPickerContextType
@@ -33,30 +26,21 @@ export const Template = ({
 					<AlphabetPages></AlphabetPages>
 					<ResultPagination />
 					<div className="row countries-list">
-						{filtered.map(({ country, alpha2 }, i) => {
-							const code = alpha2 as FlagIconCode
+						{filtered.map(({ country, alpha2,noflag}, i) => {
+							const count = getGreetingCount(i);
 							return (
 								<div key={i} className="col-lg-4 col-sm-6" >
-									<div className="btn country-picker" onClick={() => onSelect(i)}>
-										
-										<ReactCountryFlag countryCode={alpha2} svg/>
+									<div className="btn country-picker" onClick={() => onSelect(i)} >
+
+										{!noflag ?<ReactCountryFlag countryCode={alpha2} svg /> : ""}
+										{count > 0 ? <CountryBadge key={`badge-${i}`}>{count}</CountryBadge> : ""}
 										{country}
+
 									</div>
 								</div>
 							);
 						})}
 					</div>
-
-					{picked || picked === 0 ?
-						<Button
-							onClick={() => {
-								onClickFetchData(filtered[picked]);
-							}}
-						>
-							fetch and set
-						</Button>
-						: ""
-					}
 				</div>
 			</Card.Body>
 		</Card>

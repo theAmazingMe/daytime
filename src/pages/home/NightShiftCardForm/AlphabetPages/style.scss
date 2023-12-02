@@ -2,16 +2,7 @@ $prefix : alpha-;
 
 .#{$prefix} {
     @at-root #{&}feat {
-        &-dark {
-            li.page-item {
-                a {
-                    background-color: transparent;
-                    border: 0.8px solid #434358;
-                    color: #978cb3;
-                }
-            }
-            
-        }
+        
         li.page-item {
             a {
                 padding-left: unset;
@@ -44,14 +35,6 @@ $prefix : alpha-;
             min-width: 7.69%;
             a {
                 border: 0.8px solid var(--bs-border-color-translucent);
-            }
-        }
-
-        li.page-item.active {
-
-            .page-link {
-                background-color: #978cb3;
-                border-color: #434358
             }
         }
     }

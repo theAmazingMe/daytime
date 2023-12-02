@@ -1,0 +1,9 @@
+$prefix : ns-c;
+
+.#{$prefix} {
+	@at-root #{&} {
+        /*
+            setup your style here !
+        */
+	}
+}

@@ -1,0 +1,34 @@
+$prefix : mod-pick-ctry;
+$flagSize: 100px;
+$boderSize : 1px;
+
+@function diff($size) {
+    @return calc((#{$size} - #{$flagSize*(3/4)}))
+}
+
+;
+
+.#{$prefix} {
+    @at-root #{&}-feat {
+        .emojiFlag {
+            box-shadow: rgb(109, 131, 155) 0px 20px 30px -10px;
+            position: relative;
+            height: calc(#{$flagSize} + (#{$boderSize} *2) - diff(#{$flagSize}));
+            width:calc(#{$flagSize} + (#{$boderSize} *2));
+            border : #{$boderSize} solid #2c2f33;
+            border-radius: 5px;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: calc(diff(#{$flagSize})/-2);
+                font-size: #{$flagSize};
+                line-height: #{$flagSize};
+            }
+        }
+
+        .category {
+            text-align: right;
+        }
+    }
+}

@@ -7,7 +7,7 @@ import { Pagination } from "react-bootstrap";
 import { AlphabetPickerContext } from "../";
 import { AlphabetPageItems } from "./AlphabetPageItems";
 
-export const Template = ({ prefix }: any) => {
+export const Template = ({ prefix, letter, selectLetter }: any) => {
 	const { themes } = useContext(AppContext) as AppContextType;
 	const pre = useClassPrefix(prefix);
 
@@ -15,17 +15,16 @@ export const Template = ({ prefix }: any) => {
 	const half = Math.ceil(alphabet.length / 2);
 	const halphabets: string[][] = [alphabet.slice(0, half), alphabet.slice(half)];
 
-	const { letter, pickLetter } = useContext(AlphabetPickerContext) as AlphabetPickerContextType
 	return (
 		<div className={pre(`feat feat-${themes.theme}`)}>
 			<div className="d-lg-block d-none">
 				<AlphabetPageItems alphabet={alphabet}>
-					<Pagination.Item className="all" active={"" === letter} onClick={() => pickLetter("")}>Tous</Pagination.Item>
+					<Pagination.Item key="all" className={`all ${themes.theme}`} active={"" === letter} onClick={() => selectLetter("")}>Tous</Pagination.Item>
 				</AlphabetPageItems>
 			</div>
 			<div className="d-lg-none">
 				<AlphabetPageItems alphabet={halphabets[0]}>
-					<Pagination.Item className="all-half" active={"" === letter} onClick={() => pickLetter("")}>Tous</Pagination.Item>
+					<Pagination.Item key="all-half" className={`all-half ${themes.theme}`} active={"" === letter} onClick={() => selectLetter("")}>Tous</Pagination.Item>
 				</AlphabetPageItems>
 				<AlphabetPageItems alphabet={halphabets[1]} />
 			</div>

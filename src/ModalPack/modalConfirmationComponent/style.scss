@@ -1,0 +1,29 @@
+$prefix : m-conf;
+$actionButtonPrefix : mod-act-btn-;
+$closeButtonPrefix : mod-cls-btn-;
+
+.#{$prefix} {
+        @at-root #{&}-feat {
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+        }
+}
+
+.#{$actionButtonPrefix} {
+	@at-root #{&}feat {
+        /*
+            setup your style here for 
+			mod-act-btn-feat class elements and children!
+        */
+	}
+}
+
+.#{$closeButtonPrefix} {
+	@at-root #{&}feat {
+        /*
+            setup your style here for 
+			mod-cls-btn-feat class elements and children!
+        */
+	}
+}

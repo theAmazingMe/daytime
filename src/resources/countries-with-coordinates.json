@@ -575,6 +575,7 @@
       },
   {
         "country" : "France",
+        "more": "country of : 🥖 🥐 🌹",
         "alpha2" : "FR",
         "alpha3" : "FRA",
         "numeric" : 250,
@@ -947,7 +948,7 @@
         "longitude" : 75
       },
   {
-        "country" : "Lao",
+        "country" : "Laos",
         "more" : "People's Democratic Republic",
         "alpha2" : "LA",
         "alpha3" : "LAO",
@@ -1240,6 +1241,7 @@
       },
   {
         "country" : "Netherlands Antilles",
+        "noflag" : true,
         "alpha2" : "AN",
         "alpha3" : "ANT",
         "numeric" : 530,

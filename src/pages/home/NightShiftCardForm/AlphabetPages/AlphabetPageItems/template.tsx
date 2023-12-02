@@ -18,7 +18,7 @@ export const Template = ({ prefix, alphabet, children }: any) => {
 				{children}
 				{(alphabet as string[]).map((alphaLetter, i) => {
 					return (
-						<Pagination.Item active={alphaLetter === letter} onClick={() => pickLetter(alphaLetter)}>
+						<Pagination.Item className={`${themes.theme}`} key={`let-${alphaLetter}`} active={alphaLetter === letter} onClick={() => pickLetter(alphaLetter)}>
 							{alphaLetter}
 						</Pagination.Item>)
 				})}</Pagination>

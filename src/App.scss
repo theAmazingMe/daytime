@@ -6,10 +6,6 @@
 html{
 	background-color: #212529;
 }
-.page-dark {
-	background-color: #212529;
-	color: lightgray;
-}
 
 .App-logo {
 	height: 40vmin;
@@ -37,12 +33,13 @@ html{
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
+li.page-item {
+	border: none;
+	background-color: transparent;
+	a {
+		background-color: transparent;
+		color: #978cb3;
+		border: 0.8px solid var(--bs-border-color-translucent);
 	}
 }
 
@@ -58,6 +55,14 @@ html{
 [class*="feat-"] * {
 	animation: fadein 0.5s;
 }
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
 @keyframes fadein {
 	from {
 		opacity: 0;
@@ -68,28 +73,6 @@ html{
 		scale: 1;
 	}
 }
-
-[class*="feat-dark"]{
-	li.page-item a {
-		background: transparent;
-	}
-	.card {
-		//background: #494358;
-		background-color: transparent;
-		border: 0.8px solid #434358;
-		color: #978cb3;
-	
-		button.btn-primary {
-			background-color: #998db6;
-			border-color: transparent;
-			&:active {
-				background-color: #998db6;
-				border-color: white;
-			}
-		}
-	}
-}
-
 
 [class*="feat"],
 [class*="bg-feat"] {
